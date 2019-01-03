@@ -6,11 +6,11 @@ The `Matrix` class represents a mathematical matrix. It provides methods for cre
 
 The `Vector` class represents a mathematical vector, which is useful in its own right, and also constitutes a row or column of a `Matrix`.
 
-## Installation
+## Installation from rubygems.org
 
-The `matrix` library comes pre-installed with Ruby. Unless you need recent features, you can simply `require 'matrix'` directly, no need to install it.
+The **matrix** library is a default gem, which means it comes pre-installed with Ruby. Unless you need recent features, you can simply `require 'matrix'` directly, no need to install it.
 
-If you need features that are more recent than the version of Ruby you want to support (check the [CHANGELOG](CHANGELOG.md)), you must use the gem. To do this, add this line to your application's Gemfile or gem's gemspec:
+Ruby ships with a locked version of this gem. You can find out which version of **matrix** is included in your version of Ruby on [stdgems.org/matrix](https://stdgems.org/matrix). To get [all bug fixes and the latest features](CHANGELOG.md) you have to install this library as a gem. This can be done by adding the following line to your application's Gemfile or gem's gemspec:
 
 ```ruby
 gem 'matrix'
@@ -20,7 +20,7 @@ And then execute:
 
     $ bundle
 
-To make sure the gem takes over the builtin library, be to call `bundle exec ...` (or to call `gem 'matrix' explicitly).
+To make sure the gem takes over the builtin library, run `bundle exec ...` (or call `gem 'matrix' in your code explicitly).
 
 ## Usage
 
